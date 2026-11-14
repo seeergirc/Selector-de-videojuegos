@@ -18,5 +18,6 @@ select.addEventListener('change', () => {
 
   titulo.textContent = videojuegoSeleccionado.nombre
   descripcion.textContent = videojuegoSeleccionado.descripcion
+  tarjeta.style.border = "2px solid"
   tarjeta.style.borderColor = videojuegoSeleccionado.color
 })
